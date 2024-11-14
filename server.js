@@ -13,7 +13,7 @@ const socket = require('socket.io')
 const server = http.createServer(app)
 
 app.use(cors({
-    origin: ['http://localhost:3000', 'http://localhost:3001', 'http://localhost:3002', 'http://localhost:3003'],
+    origin: ['http://localhost:3000', 'http://localhost:3001', 'http://localhost:3002', 'https://estore-6wln.onrender.com'],
     credentials: true
 }))
 
